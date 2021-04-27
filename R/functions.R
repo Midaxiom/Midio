@@ -176,8 +176,8 @@ mod_cnt_n <- function(data){
     unnest(activities)
 
     #Form count
-    #activity_cnt <- as.data.frame(table(new_data$mood, format(new_data$full_date,"%B")))
-    activity_cnt <- as.data.frame(table(new_data$mood, new_data$full_date))
+    activity_cnt <- as.data.frame(table(new_data$mood, format(new_data$full_date,"%B")))
+    #activity_cnt <- as.data.frame(table(new_data$mood, new_data$full_date))
 
     names(activity_cnt)[1] <- "mood"
     names(activity_cnt)[2] <- "month"
