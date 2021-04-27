@@ -15,5 +15,3 @@ License: CC0
 Depends: R (>= 4.0), ggplot2
 Encoding: UTF-8
 LazyData: true
-
-
